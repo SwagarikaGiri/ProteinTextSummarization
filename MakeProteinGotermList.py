@@ -2,6 +2,7 @@
 import pickle
 import numpy as np
 import pandas as pd
+import csv
 from GoDefination import get_gene_ontology
 
 
@@ -30,9 +31,9 @@ def getGoTermUniqueList(row):
         goterm_list.append(ele)
         list_ = allParentList(ele)
         goterm_list.extend(list_)
-    print(len(goterm_list))
+    # print(len(goterm_list))
     goterm_list = unique(goterm_list)
-    print(len(goterm_list))
+    # print(len(goterm_list))
     return goterm_list
 
 def prepareDocument(geneOntology,goterm_list):
@@ -41,22 +42,54 @@ def prepareDocument(geneOntology,goterm_list):
         go_details = geneOntology[go]
         defination = go_details['def']
         doc_defination=doc_defination+defination
-    print(doc_defination)
+    # print(doc_defination)
     doc_defination= doc_defination.replace('"', "")
+    doc_defination=doc_defination.strip()
+    doc_defination=doc_defination.replace("\n", "")
     return doc_defination
 
+
+def prepare_csv_file(protein,gos,defination):
+    with open('Test.csv','w') as output_csvfile:
+        spamwriter = csv.writer(output_csvfile, delimiter=',')
+        list_=[]
+        list_.extend(['protein','gos predictions', 'defination'])
+        # spamwriter.writerow(list_)
+        for i in range(0,len(protein)):
+            # print(protein[i])
+            # print(gos[i])
+            # print(defination[i])
+            print([protein[i],gos[i], defination[i]])
+            spamwriter.writerow([protein[i],gos[i], defination[i]])
+
+            
 
 def prepareAllGotermAnnotation():
     geneOntology = get_gene_ontology()
     protein_goterm_annotation = extractDataFromPickleFile(
         'combined-multimodal-bp.pkl')
     # print(protein_goterm_annotation)
+    protein_goterm_annotation=protein_goterm_annotation.head(100)
     all_gos_list = []
+    protein_accession=[]
+    protein_goterm_list=[]
+    protein_defination=[]
     for index, row in protein_goterm_annotation.iterrows():
+        protein_accession.append(index)
         uniprot_gos = row['gos']
         goterm_list= getGoTermUniqueList(row)
-        prepareDocument(geneOntology,goterm_list)
-        # print(len(goterm_list))
+        protein_goterm_list.append(goterm_list)
+        defination = prepareDocument(geneOntology,goterm_list)
+        protein_defination.append(defination)
+    prepare_csv_file(protein_accession,protein_goterm_list,protein_defination)
+    df = pd.DataFrame(
+        {
+            'proteins': protein_accession, 'predictions': protein_goterm_list,
+            'defination':protein_defination })
+    print(df)
+    df.to_pickle('ProteinDefination.pkl')
+    input()
+    # print(len(goterm_list))
 
 
 prepareAllGotermAnnotation()
