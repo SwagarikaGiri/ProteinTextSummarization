@@ -4,7 +4,8 @@ import numpy as np
 import pandas as pd
 import csv
 from GoDefination import get_gene_ontology
-
+import string
+from nltk.translate.bleu_score import sentence_bleu
 
 def extractDataFromPickleFile(filename):
     datalist = pd.read_pickle('combined-multimodal-bp.pkl')
@@ -50,15 +51,15 @@ def prepareDocument(geneOntology,goterm_list):
 
 
 def prepare_csv_file(protein,gos,defination):
-    with open('Test.csv','w') as output_csvfile:
+    with open('ProteinGOA.csv','w') as output_csvfile:
         spamwriter = csv.writer(output_csvfile, delimiter=',')
         list_=[]
         list_.extend(['protein','gos predictions', 'defination'])
         # spamwriter.writerow(list_)
         for i in range(0,len(protein)):
-            # print(protein[i])
-            # print(gos[i])
-            # print(defination[i])
+            print(protein[i])
+            print(gos[i])
+            print(defination[i])
             print([protein[i],gos[i], defination[i]])
             spamwriter.writerow([protein[i],gos[i], defination[i]])
 
@@ -76,6 +77,9 @@ def importcsvAndStoreDf():
     #         line =line.strip()
     #         line_split = line.split("^")
     #         print(line_split)
+def removePuntuationFromString(a_string):
+    new_string = a_string.translate(str.maketrans('', '', string.punctuation))
+    return new_string
 
 def prepareAllGotermAnnotation():
     geneOntology = get_gene_ontology()
@@ -88,12 +92,13 @@ def prepareAllGotermAnnotation():
     protein_goterm_list=[]
     protein_defination=[]
     for index, row in protein_goterm_annotation.iterrows():
+        print(index)
         protein_accession.append(index)
         uniprot_gos = row['gos']
         goterm_list= getGoTermUniqueList(row)
         protein_goterm_list.append(goterm_list)
         defination = prepareDocument(geneOntology,goterm_list)
-        protein_defination.append(defination)
+        protein_defination.append(defination.strip())
     prepare_csv_file(protein_accession,protein_goterm_list,protein_defination)
     df = pd.DataFrame(
         {
@@ -108,4 +113,10 @@ def prepareAllGotermAnnotation():
 
 # proteinDF= prepareAllGotermAnnotation()
 
-descriptionDF=importcsvAndStoreDf()
+# descriptionDF=importcsvAndStoreDf()
+# for row in descriptionDF.iterrows():
+#     print(row[0]) 
+#     print(removePuntuationFromString(str(row[1])))
+#     input()
+
+
