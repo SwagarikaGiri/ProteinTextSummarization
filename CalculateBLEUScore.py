@@ -1,4 +1,4 @@
-from MakeProteinGotermList import importcsvAndStoreDf,prepareAllGotermAnnotation
+from MakeProteinGotermList import importcsvAndStoreDf
 from nltk.translate.bleu_score import sentence_bleu
 import string
 import pandas as pd
