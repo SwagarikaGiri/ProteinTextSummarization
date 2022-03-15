@@ -60,6 +60,8 @@ def plotGraph(ref,pred,xlabel,ylabel):
     xpoints = np.array(ref)
     ypoints = np.array(pred)
     fig = plt.figure()
+    plt.ylim(min(ref+pred)-0.01,max(ref+pred)+0.01)
+    plt.xlim(min(ref+pred)-0.01,max(ref+pred)+0.01)
     plt.plot(xpoints, ypoints, 'o')
     plt.xlabel(xlabel, fontsize=18)
     plt.ylabel(ylabel, fontsize=16)
