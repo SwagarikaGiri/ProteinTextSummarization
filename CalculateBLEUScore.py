@@ -40,7 +40,8 @@ def cleanAndSplitStemming(a_string):
 def cleanAndSplitSentence(a_string):
     a_string=a_string.strip()
     new_string = a_string.translate(str.maketrans('', '', string.punctuation))
-    return new_string.split()
+    words = [word for word in new_string.split() if word.lower() not in sw_nltk]
+    return words
 
 
 

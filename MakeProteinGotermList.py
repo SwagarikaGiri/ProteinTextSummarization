@@ -51,7 +51,7 @@ def prepareDocument(geneOntology,goterm_list):
 
 
 def prepare_csv_file(protein,gos,defination):
-    with open('ProteinGOA.csv','w') as output_csvfile:
+    with open('ProteinGOA.csv','w' ,newline='', encoding='utf-8') as output_csvfile:
         spamwriter = csv.writer(output_csvfile, delimiter=',')
         list_=[]
         list_.extend(['protein','gos predictions', 'defination'])
@@ -86,7 +86,7 @@ def prepareAllGotermAnnotation():
     protein_goterm_annotation = extractDataFromPickleFile(
         'combined-multimodal-bp.pkl')
     # print(protein_goterm_annotation)
-    protein_goterm_annotation=protein_goterm_annotation.head(100)
+    protein_goterm_annotation=protein_goterm_annotation
     all_gos_list = []
     protein_accession=[]
     protein_goterm_list=[]
@@ -111,7 +111,7 @@ def prepareAllGotermAnnotation():
     # # print(len(goterm_list))
 
 
-# proteinDF= prepareAllGotermAnnotation()
+proteinDF= prepareAllGotermAnnotation()
 
 # descriptionDF=importcsvAndStoreDf()
 # for row in descriptionDF.iterrows():
