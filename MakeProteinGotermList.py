@@ -15,7 +15,7 @@ def extractDataFromPickleFile(filename):
 
 def allParentList(goterm):
     data = pd.read_csv("AllParentList.csv", index_col=0)
-    parentList = data.loc['GO:0000001'][1]
+    parentList = data.loc[goterm][1]
     return parentList.split()
 
 
@@ -40,9 +40,12 @@ def getGoTermUniqueList(row):
 def prepareDocument(geneOntology,goterm_list):
     doc_defination=""
     for go in goterm_list:
-        go_details = geneOntology[go]
-        defination = go_details['def']
-        doc_defination=doc_defination+defination
+        try:
+            go_details = geneOntology[go]
+            defination = go_details['def']
+            doc_defination=doc_defination+defination
+        except:
+            print("some issue with goterm")
     # print(doc_defination)
     doc_defination= doc_defination.replace('"', "")
     doc_defination=doc_defination.strip()
@@ -51,11 +54,11 @@ def prepareDocument(geneOntology,goterm_list):
 
 
 def prepare_csv_file(protein,gos,defination):
-    with open('ProteinGOA.csv','w' ,newline='', encoding='utf-8') as output_csvfile:
+    with open('ProteinGOAUpdated.csv','w' ,newline='', encoding='utf-8') as output_csvfile:
         spamwriter = csv.writer(output_csvfile, delimiter=',')
         list_=[]
         list_.extend(['protein','gos predictions', 'defination'])
-        # spamwriter.writerow(list_)
+        spamwriter.writerow(list_)
         for i in range(0,len(protein)):
             print(protein[i])
             print(gos[i])

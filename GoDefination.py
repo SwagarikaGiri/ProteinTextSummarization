@@ -6,7 +6,7 @@ Created on Mon Feb 14 10:58:39 2022
 """
 import pandas as pd
 import csv
-def get_gene_ontology(filename='go.obo'):
+def get_gene_ontology(filename='go_new.obo'):
     # Reading Gene Ontology from OBO Formatted file
     go = dict()
     obj = None
@@ -58,6 +58,8 @@ def get_gene_ontology(filename='go.obo'):
 # gene_ontology= get_gene_ontology()
 # go_term = gene_ontology['GO:0000001']
 # print(go_term['def'])
+# print(len(gene_ontology))
+# input()
 # go_dataframe = pd.DataFrame.from_dict(gene_ontology)
 # print(go_dataframe)
 # go_dataframe.to_csv('go-dataframe.csv')
