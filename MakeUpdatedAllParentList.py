@@ -1,9 +1,7 @@
-import pickle
 import numpy as np
 import pandas as pd
 import csv
 from GoDefination import get_gene_ontology
-import string
 from nltk.translate.bleu_score import sentence_bleu
 
 geneOntology = get_gene_ontology()
