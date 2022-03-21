@@ -14,8 +14,12 @@ def extractDataFromPickleFile(filename):
 
 
 def allParentList(goterm):
+    parentList=""
     data = pd.read_csv("AllParentList.csv", index_col=0)
-    parentList = data.loc[goterm][1]
+    try:
+        parentList = data.loc[goterm][1]
+    except:
+        parentList=""
     return parentList.split()
 
 
@@ -39,14 +43,23 @@ def getGoTermUniqueList(row):
 
 def prepareDocument(geneOntology,goterm_list):
     doc_defination=""
+    print(len(goterm_list))
+    erroredGoterm=[]
+    counter =0
     for go in goterm_list:
         try:
             go_details = geneOntology[go]
             defination = go_details['def']
             doc_defination=doc_defination+defination
         except:
+            counter = counter + 1
+            erroredGoterm.append(go)
             print("some issue with goterm")
     # print(doc_defination)
+    print("the actual no of goterm"+ str(len(goterm_list)))
+    print("errored value is"+ str(counter))
+    print("errored goterm")
+    print(erroredGoterm)
     doc_defination= doc_defination.replace('"', "")
     doc_defination=doc_defination.strip()
     doc_defination=doc_defination.replace("\n", "")
@@ -108,7 +121,7 @@ def prepareAllGotermAnnotation():
             'proteins': protein_accession, 'predictions': protein_goterm_list,
             'defination':protein_defination })
     print(df)
-    df.to_pickle('ProteinDefination.pkl')
+    df.to_pickle('ProteinDefinationUpdated.pkl')
     return df
     # input()
     # # print(len(goterm_list))
