@@ -24,18 +24,15 @@ def loadUniprotData():
 #use recent go term information for all parent list, filter using go.obo ontology information
 def allParentList(goterm):
     parentList=""
-    data = pd.read_csv("AllParentList.csv", index_col=0)
+    data = pd.read_csv("AllParentListUpdatedOn2022Goa.csv", index_col=0)
     try:
-        parentList = data.loc[goterm][1]
+        parentList = data.loc[goterm][2]
     except:
         parentList=""
-    parentList= parentList.split()
-     for go in parentList:
-         
+    return parentList.split(";")
 
-    return parentList.split()
 
-def makeAllParentList():
+print(allParentList('GO:0000001'))
 
 
 

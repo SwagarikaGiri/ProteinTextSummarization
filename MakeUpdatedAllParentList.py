@@ -55,7 +55,11 @@ def updateTheAllParentList(df):
 
 
 
-df = importCsvAndStoreInDf("AllParentList.csv",",")
-updateTheAllParentList(df)
-# df = setIndexWithParticularColumn(df,'Go term ID')
-print(df)
+
+def main():
+    df = importCsvAndStoreInDf("AllParentList.csv",",")
+    updateTheAllParentList(df)
+    
+
+if __name__ == "__main__":
+    main()
