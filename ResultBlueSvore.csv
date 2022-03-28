@@ -1,0 +1,293 @@
+protein,length of Uniprot description,length of Goa description,length of intersection,intersection,One gram bleu score
+P31946,62,1819,19,via form usual protein motif signal result mediat phosphoryl activ function express bind kinas pathway special regul larg modul,0
+Q9CQV8,60,1839,18,via pathway function usual express special activ signal result mediat phosphoryl regul modul larg kinas bind protein motif,0
+P62258,39,3245,17,pathway function general cytoplasm usual special activ signal result regul phosphoryl modul larg posit bind protein motif,0
+Q04917,33,2747,14,pathway function negat usual number special signal result regul larg modul bind protein activ,0
+P68510,34,2714,13,pathway function negat usual special signal result regul larg modul bind protein activ,0
+P61981,28,2255,15,pathway function general usual number special activ signal result regul larg modul bind protein motif,0
+P31947,54,2744,22,usual epitheli protein progress signal result synthesi activ function general degrad bound also growth may bind pathway special regul larg modul cell,0
+P27348,33,1524,13,pathway function usual special activ signal result regul larg modul bind protein motif,0
+P63104,53,2857,18,pathway neuron function general usual membran special activ signal result matur regul format modul larg bind protein motif,0
+P37821,27,725,10,substrat function direct use also catalyz plant ethylen convers format,0
+P04439,666,3456,63,antigenpres via amino prevent modif recogn class hydrophob anchor usual control secret infect antigen contribut interact carri parent protein sequenc receptor high 2 acid membran signal result complex deriv natur proteolysi product present restrict alphabeta function molecul innat differ peptid also basic specif immun may bind tumor killer contain includ separ cd8posit mhc cytosol microglobulin immunogen matur enzym typic intracellular cell two respons,0.01351351351351352
+P01889,721,2302,55,antigenpres via amino prevent form recogn class anchor usual way hydrophob control infect secret antigen interact carri protein sequenc memori receptor membran acid trigger signal associ sensit deriv complex chain cytotox proteolysi natur activ restrict function molecul increas differ peptid also protect specif immun may bind particular contain includ mhc cytosol typic intracellular cell respons,0.008321775312066576
+P10321,392,1360,45,antigenpres via amino form recogn class anchor hydrophob secret infect antigen interact similar memori receptor high acid trigger set mediat deriv complex proteolysi activ restrict function molecul peptid express specif immun may enhanc bind invas particular contain includ mhc cytosol regul typic intracellular cell respons,0.010204081632653057
+Q13362,44,1613,22,regulatori signal compart subunit activ function catalyt also prolifer specif dna may particular pathway substrat direct subcellular enzym holoenzym regul modul cell,0.02272727272727273
+P30153,38,3564,19,centromer interact regulatori proper protein phosphatas assembl associ subunit scaffold serv function mitosi molecul catalyt upon chromosom segreg microtubul,0.026315789473684213
+Q76MZ3,39,2014,17,function mitosi molecul centromer phosphatas catalyt upon segreg assembl associ subunit scaffold microtubul interact regulatori chromosom protein,0.025641025641025644
+P63151,37,943,17,level particular substrat function direct catalyt phosphatas also subcellular compart enzym subunit modul regulatori essenti protein activ,0.02702702702702703
+P01911,814,5191,89,follow intern class virus anchor select high deriv major beta role epitop ultim 10 known viral may essenti lymphocyt expans lysosom dendrit elicit cd4posit larg extern typic two amino alpha usual epitheli infect regulatori protein receptor acid mediat activ peptid macrophag protect immun ii tumor mechan histocompat residu immunogen thelper effector cell respons extracellular hydrophob potenti carri 1 chain proteolysi generat function effect molecul upon later process direct first intracellular antigenpres via control transform antigen secret contribut interact memori trigger complex cytotox product alphabeta play agent bind b low,0.008599508599508596
+Q7NXD4,25,343,6,function orthophosph nucleosid catalyt also activ,0
+P78314,22,292,9,function transduct sh3 signal phosphoryl domain tyrosin bind protein,0
+O60239,35,1295,12,involv function cytoplasm exchang guanin signal factor gef nucleotid specif cell activ,0
+P46952,14,1856,5,function oxid catalyz quinolin ring,0
+P47096,11,1679,5,function oxid catalyz quinolin ring,0
+Q9I0N5,32,224,7,substrat function oxid physiolog also catalyz enzym,0
+P04395,17,836,9,hydrolysi bond excis function form damag deoxyribos dna alkyl,0
+P29372,14,1004,9,hydrolysi bond excis function form damag deoxyribos dna alkyl,0
+A0S864,51,213,3,receptor function acetylcholin,0
+A0S865,51,213,3,receptor function acetylcholin,0
+D5MP61,29,746,5,hydrolysi function catalyz oligosaccharid xylos,0
+Q8RS40,24,798,7,hydrolysi glucomannan function amount catalyz oligosaccharid xylos,0
+P11171,36,1576,17,cortex 41 physic major function role play element membran regul complex structur interact skeleton erythrocyt cell protein,0
+Q42524,24,518,5,includ function use compound acid,0
+Q9SMT7,27,1596,9,function seed degrad develop format oxal act normal activ,0
+Q13541,48,1097,17,repress pathway prevent function translat initi growth signal factor mediat complex regul interact kinas bind protein activ,0
+Q13542,75,1678,31,via prevent form plastic learn initi interact protein involv neuron abil memori signal mediat complex act activ function synaps growth format bind stimuli kinas synapt repress pathway factor regul cell translat,0
+P08195,262,1909,38,lleucin amino case form via organell involv phenylalanin across polar tryptophan acid membran small signal associ neutral synthesi complex activ function plasma compon specif viral may transport substrat molecular host cellular togeth lysosom leucin regul larg intracellular cell,0.003816793893129772
+P70994,55,215,7,function reaction high also catalyz occur two,0
+P76491,30,1134,11,pathway function de catalyz novo synthesi triphosph 5monophosph specif dump 2deoxyribonucleosid,0
+P28222,93,3576,37,drug via ligand chang inhibit 5hydroxytryptamin behavior caus serotonin g protein downstream receptor acid trigger releas substanc mediat deriv signal arteri activ cyclas function role play also conform alkaloid bind process pathway dopamin effector regul modul gprotein,0.021505376344086027
+P28223,122,4940,52,drug via ligand chang various vasoconstrict inhibit phosphatidylinositol c 5hydroxytryptamin percept behavior caus serotonin store protein g downstream contract human receptor muscl acid system trigger releas substanc mediat smooth signal coupl arteri activ function affect also may ion bind pathway includ ca2 effector regul phospholipas 3kinas gprotein messeng modul intracellular promot respons,0.024590163934426233
+P14842,99,5003,51,drug via ligand chang various vasoconstrict inhibit phosphatidylinositol c 5hydroxytryptamin percept behavior caus serotonin store protein g downstream contract receptor muscl acid system trigger releas substanc mediat smooth signal coupl arteri activ function affect also may ion bind pathway includ ca2 effector regul phospholipas 3kinas gprotein messeng modul intracellular promot respons,0.030303030303030304
+P41595,175,4809,58,via ligand chang extracellular various inhibit phosphatidylinositol develop 5hydroxytryptamin behavior guanin caus serotonin impuls store g protein downstream second similar receptor system trigger releas substanc mediat deriv neural signal uptak normal embryon arteri maintain activ cascad function also prolifer may ion bind level pathway heart includ ca2 intestin effector regul 3kinas cardiac messeng modul intracellular cell promot gprotein,0.011428571428571425
+P28335,114,2934,50,drug via ligand chang inhibit phosphatidylinositol 5hydroxytryptamin behavior caus serotonin potenti store g protein downstream second neuron receptor acid system trigger releas substanc appetit deriv mediat signal activ stress cascad function also calcium ion bind stimuli pathway includ channel ca2 effector homeostasi regul short messeng gprotein modul intracellular promot respons,0.017543859649122806
+P08909,111,3904,50,drug via ligand chang inhibit phosphatidylinositol 5hydroxytryptamin behavior caus serotonin potenti store g protein downstream second neuron receptor acid system trigger releas substanc appetit deriv mediat signal activ stress cascad function also calcium ion bind stimuli pathway includ channel ca2 effector homeostasi regul short messeng gprotein modul intracellular promot respons,0.018018018018018025
+Q13639,21,1198,13,neurotransmitt cyclas function one receptor g 5hydroxytryptamin biogen hormon mediat serotonin protein activ,0.047619047619047616
+Q9H0P0,20,990,5,substrat function specif cytidin activ,0
+Q9W197,52,980,15,hydrolysi substrat function purin inorgan monophosph phosphat acid also nucleotid specif nucleic may cell activ,0.019230769230769235
+P49902,69,1194,17,imp function purin within nucleosid monophosph phosphat inosin also catalyz regul pyrimidin possess specif guanosin cell activ,0
+P21589,13,2055,7,function extracellular nucleosid amp membran nucleotid activ,0
+Q88FY2,22,441,10,pathway hydroxyl function oxid degrad nadh catalyz decarboxyl 6hydroxynicotin 25dihydroxypyridin,0
+P38720,13,1342,7,nadp function oxid co2 nadph catalyz ribulos,0
+P00350,13,1096,9,5phosphat nadp function oxid co2 nadph catalyz reduct ribulos,0
+P52209,13,1388,9,5phosphat nadp function oxid co2 nadph catalyz reduct ribulos,0
+P00349,12,907,9,5phosphat nadp function oxid co2 nadph catalyz reduct ribulos,0
+P36639,102,1838,16,hydrolysi hydrolas function oxid purin nucleosid also catalyz activ toward nucleotid protect dna integr cell stress,0
+P53368,79,1801,16,hydrolysi hydrolas function oxid purin nucleosid also catalyz activ toward nucleotid protect dna integr cell stress,0
+Q676U5,158,2209,41,via form virus control atg8 infect morpholog interact produc protein involv phosphatidylethanolamin autophagi membran compart act product type lipid activ function role conjug famili play also membranebound endolysosom essenti pathway singl either molecular negat distinct catalyz nascent regul autophagosom cell respons,0
+P02763,30,972,11,function reaction bodi also system blood modul immun bind protein activ,0
+P19652,29,927,10,function reaction also system blood modul immun bind protein activ,0
+P01009,55,1604,12,coagul serin form function peptid also platelet proteas protect decreas leukocyt activ,0
+Q9NQ94,45,1502,16,respons function mrna apolipoprotein deamin stop compon catalyt apobec1 also cytosin edit subunit complex essenti b,0.022222222222222227
+P20995,26,551,9,function viral process dna may link essenti protein replic,0
+Q61247,15,3057,5,serin function also plasmin proteas,0
+Q10651,72,816,22,stage morphogenesi larval progress divis member life transit activ function gene bodi adult specif may process molt pathway includ size regul cell,0
+P05067,266,11400,92,iron intern particl proteinprotein releas lipid mapk oxid role outgrowth also domain may regul cortic inhibit alpha reduc inhibitor neurit raft protein involv receptor surfac membran heparan mediat possess neural act copper activ stress matrix compon peptid pathway cell anterograd respons adhes perform extracellular subsequ reduct potenti metal neuron apolipoprotein result signal cargo heparin chain apoptosi nitric function lowdens brain molecul degrad effect inflammatori transport lead contain direct includ toward promot aggreg transcript via death physiolog lipoprotein interact axon relev similar trigger notch phosphoryl plasma play requir bodi growth ion bind sulfat,0.011278195488721807
+P12023,224,10819,82,iron intern proteinprotein releas lipid mapk oxid role outgrowth also domain may regul cortic inhibit reduc inhibitor neurit raft protein involv receptor surfac membran heparan mediat act copper activ stress matrix compon peptid pathway residu cell anterograd respons adhes perform extracellular subsequ reduct metal neuron signal cargo heparin result chain apoptosi nitric function brain molecul degrad inflammatori due transport lead contain includ toward promot aggreg transcript via physiolog interact axon relev similar trigger notch phosphoryl play requir bodi growth ion bind sulfat,0.004464285714285716
+P08592,240,8650,76,adhes transcript perform via iron intern extracellular reduc inhibitor reduct interact axon neurit raft protein proteinprotein involv metal relev neuron similar receptor surfac membran trigger releas signal mediat cargo neural heparin result act copper chain aggreg phosphoryl lipid activ stress mapk matrix oxid role function brain outgrowth compon molecul peptid degrad also notch play requir bodi growth inflammatori domain due may ion transport lead bind contain pathway includ residu toward promot regul cortic cell anterograd respons,0.0041666666666666675
+P05623,94,986,25,via within initi behavior reproduct reduc rate protein receptor trigger signal male recept mate femal activ function specif may bind egg includ distinct promot respons,0
+P9WQP3,75,424,16,maintain acceptor function acyl one molecul high anoth also catalyz transfer donor attach larg cell protein,0
+P9WQP1,58,1160,17,adhes maintain function one molecul high fibronectin anoth also catalyz transfer attach larg glycoprotein cell protein respons,0
+P9WQN9,57,748,15,maintain function one molecul high anoth acid also transfer catalyz synthesi format larg cell protein,0
+P30542,11,5418,10,adenylyl cyclas function receptor inhibit g adenosin mediat protein activ,0.0909090909090909
+P29274,14,5631,10,adenylyl cyclas function similar receptor g adenosin mediat protein activ,0.07142857142857141
+Q15758,90,1541,21,amino virus exclud fusion protein acid membran neutral mediat function glutamin plasma specif may transport bind process anion includ cation cell,0
+P9WQG9,33,541,12,group amino similar function 2 spectrum acetyl express catalyz broad aminoglycosid hydroxyl,0.030303030303030304
+Q43899,22,271,7,group function molecul acetyl catalyz transfer antibiot,0
+Q44057,22,271,7,group function molecul acetyl catalyz transfer antibiot,0
+Q9R381,28,1114,14,contain group function includ molecul histon acetylcoa acetyl eukaryot catalyz transfer antibiot ring protein,0
+P01011,17,1569,4,neutrophil cell function activ,0.0588235294117647
+Q8N5Z0,39,1510,14,acceptor substrat function use kynurenin oxoacid aspart methionin acid also 2oxoglutar specif glutam activ,0
+Q11T61,24,307,5,contain substrat function catalyz specif,0
+Q2M2I8,111,1676,26,local form initi protein ensur high 2 membran subunit phosphoryl complex activ function increas isoform may bind level substrat residu endosom cellular endocytosi regul ap2 adaptor,0.036036036036036036
+Q9Y478,83,1746,24,transcript via intracellular protein carbohydr assembl phosphoryl complex lipid activ function also process kinas level pathway direct atp cellular enzym regul metabol cytoskeleton cell,0
+P80386,83,1680,23,transcript via protein carbohydr assembl phosphoryl complex lipid activ function also process kinas level pathway direct atp cellular enzym regul metabol cytoskeleton cell,0
+O43741,83,1461,23,transcript via intracellular protein carbohydr assembl complex lipid activ function also process kinas level pathway direct atp cellular enzym regul metabol cytoskeleton cell,0
+Q9QZH4,85,1328,25,transcript via intracellular protein carbohydr assembl subunit phosphoryl complex lipid activ function also process kinas level pathway direct atp cellular enzym regul metabol cytoskeleton cell,0
+P54619,111,2742,30,transcript via prevent energi intracellular protein carbohydr result mediat phosphoryl lipid activ function catalyt also bind process kinas level pathway direct atp adp cellular amp enzym regul metabol cytoskeleton cell,0
+P80385,112,2074,27,via prevent protein carbohydr result mediat phosphoryl lipid activ function catalyt also bind process kinas level pathway direct atp adp cellular amp enzym regul metabol cytoskeleton cell,0
+P12904,98,2223,31,transcript via prevent energi protein carbohydr result mediat phosphoryl lipid activ function catalyt growth lead process kinas level bind pathway direct atp adp cellular amp enzym regul metabol intracellular cell respons,0
+Q988D4,17,478,7,function reaction degrad b6 catalyz carbon vitamin,0
+Q13131,324,7020,73,transcript via prevent energi inhibit intracellular circadian fatti protein involv glucos carbohydr ampk cholesterol biosynthesi histon autophagi nutrient wnt acid membran muscl signal import mediat synthesi glycolysi phosphoryl complex act structur lipid activ actin stress beta function plasma effect increas compon catalyt cytoplasm howev also growth rhythm prolifer well may transport kinas process lead level pathway chromatin direct negat atp remodel cellular exposur enzym factor regul homeostasi ampactiv metabol cytoskeleton cell promot respons,0.003086419753086421
+Q5EG47,318,6787,72,transcript via prevent energi inhibit intracellular circadian fatti protein involv glucos carbohydr ampk cholesterol biosynthesi histon autophagi nutrient wnt acid membran muscl signal import mediat synthesi glycolysi phosphoryl complex act structur lipid activ stress beta function plasma effect increas compon catalyt cytoplasm howev also growth rhythm prolifer well may transport kinas process lead level pathway chromatin direct negat atp remodel cellular exposur enzym factor regul homeostasi ampactiv metabol cytoskeleton cell promot respons,0.003144654088050314
+P54645,313,7278,72,transcript via prevent energi inhibit intracellular circadian fatti protein involv glucos carbohydr ampk cholesterol biosynthesi histon autophagi nutrient wnt acid membran signal import mediat synthesi glycolysi phosphoryl complex act structur lipid activ stress beta function plasma effect increas compon catalyt cytoplasm howev also metabol growth rhythm prolifer well may transport kinas process lead level pathway chromatin direct negat atp remodel cellular exposur enzym factor regul homeostasi ampactiv muscl cytoskeleton cell promot respons,0.0031948881789137388
+P54646,327,4759,65,transcript via prevent intern energi intracellular circadian starvat fatti protein involv glucos carbohydr biosynthesi cholesterol histon autophagi nutrient wnt acid membran signal import mediat synthesi glycolysi phosphoryl complex act structur lipid activ stress differenti function plasma stabil increas compon catalyt cytoplasm metabol also rhythm may transport kinas process lead level pathway chromatin direct negat atp remodel cellular enzym homeostasi regul compos muscl cytoskeleton cell respons,0.003058103975535168
+P22702,57,412,21,within initi encod ribosom regulatori upstream downstream region high result product attenu stall presenc function mrna peptid codon orf termin translat,0
+P32357,21,409,12,spliceosom splice function gene u5 compon premrna assembl complex snrnp cell involv,0
+Q9UDR5,18,2401,9,contain function saccharopin degrad lysin catalyz enzym two activ,0
+P00504,56,1010,13,level via substrat function use action aspart activ synthesi regul hydrogen glutam involv,0
+P17174,57,2377,18,level via substrat function use action aspart system activ modul import synthesi convert regul hydrogen act glutam involv,0
+P23542,7,1140,5,amino function acid key metabol,0
+Q9NY61,65,2008,21,progress region mediat complex diseas product alzheim activ function gene increas bound express amyloid may cycl bind molecular describ cell promot,0
+P00508,29,1109,9,amino function form mitochondria acid catalyz key metabol intracellular,0
+P00505,37,1838,12,amino form function mitochondria cellular acid catalyz import key metabol intracellular fatti,0
+P05202,37,1892,13,amino form function mitochondria cellular acid catalyz metabolit import key metabol intracellular fatti,0
+Q8R5A3,21,949,8,adhes actin function transduct cytoskelet signal mediat activ,0
+P31941,70,1667,17,select restrict function gene deamin virus express also cytosin foreign regul nuclear dna may type process activ,0.01428571428571428
+Q9UH17,100,1530,25,via virus uracil cytosin infect select rna genom result act type activ function effect dna viral may level mechan singl deamin togeth convers cell replic,0.02
+Q9NRW3,113,1759,30,via virus uracil cytosin infect select rna genom result act cytidin activ function gene effect express also dna viral may process level mechan singl deamin togeth regul convers cell replic,0.017699115044247784
+Q8IUX4,130,1664,31,via virus uracil cytosin infect select rna genom result act activ function gene effect express also antivir dna may viral process b level mechan singl deamin togeth regul convers cell replic,0.0076923076923076945
+Q9HC16,129,1971,28,via virus uracil cytosin infect select rna genom result act cytidin activ function effect also antivir dna may viral b level mechan singl deamin togeth convers cell replic,0.007751937984496126
+Q6NTF7,103,1541,26,via virus uracil cytosin infect select rna genom result act type activ function effect also dna viral may level mechan singl deamin togeth convers cell replic,0.019417475728155338
+Q9NP58,92,2626,25,iron extracellular toxic coordin earli metal similar heme space membran import transit function plasma vesicl cytoplasm also agent porphyrin may transport mitochondria catalyz regul cell,0
+Q9NUT2,55,1243,21,local form inner atpbind protein across membran subunit complex function potassium locat mainten transport mitochondria togeth matur enzym atpdepend regul mitochondri,0
+Q8NE71,16,1707,7,mrna function 2 initi ribosom translat involv,0.12500000000000003
+Q9UNQ0,169,1632,25,drug physiolog urat vitamin involv like import activ function plasma compound also biotin specif may transport xenobiot substrat includ riboflavin mitochondria cellular wide cell conjug,0
+Q9H222,55,1887,12,select cholesterol form function heterodim cell bile sterol membran activ transport across,0
+Q9H221,50,1880,12,select cholesterol form function heterodim cell bile sterol membran activ transport across,0
+P09087,15,3091,13,transcript part ident function anteriorposterior system development factor axi specif posit regulatori cell,0
+P77674,60,1032,15,via pathway aldehyd function oxid one degrad catalyt putrescin also catalyz llysin proceed nitrogen two,0
+Q9Y235,34,794,13,substrat function mrna gene physiolog enzym regul known low dna may process activ,0.0588235294117647
+Q9WV35,33,794,13,substrat function mrna gene physiolog enzym regul known low dna may process activ,0.060606060606060615
+G5EC68,37,424,4,gramneg function gramposit activ,0
+Q02486,23,745,11,sequenc function region gene mitochondri genom compact interact specif bind replic,0.043478260869565216
+Q8NK89,30,684,11,contain function degrad polysaccharid also plant hemicellulos chain termin nonreduc involv,0
+Q9DBL9,63,1645,18,acceptor group biosynthesi phosphatid acyl function differenti cellular acid catalyz activ donor regul lysophosphatid may storag lipid involv,0
+Q96IU4,11,1594,5,transcript hydrolas function may activ,0
+Q9NYB9,122,2559,43,morphogenesi control adheren epitheli contribut involv neuron arp23 trigger assembl mediat complex filament phosphoryl activ actin project polymer differenti spine nucleat function compon fiber also edg format specif may link lead kinas process len particular substrat junction dendrit nascent regul larg cytoskeleton cell,0
+O94929,14,2008,6,transcript function scaffold may protein activ,0
+P49777,9,859,4,sequenc within bind function,0
+P15891,48,1610,22,monom cytoskeleton arp23 assembl complex filament activ actin function nucleat role compon also known site may bind patch branch endocytosi regul cortic,0
+P11140,32,1071,11,28s function cell catalyt membran endocytosi rrna ribosom bind protein respons,0.03125
+P08874,34,834,11,transcript sporul function gene state control express phase site two activ,0
+Q9UKU7,24,848,8,pathway function oxid one also catalyz catabol valin,0
+P11310,96,2458,38,betaoxid via trans2enoylcoa break energi dehydrogenas straightchain satur consist fatti mediumchain acceptor step acid electron result transfer chain act product long acylcoa function one fat respiratori flavoprotein specif format process oxidoreductas remov among acetylcoa catalyz carbon hydrogen mitochondri,0.010416666666666668
+P16219,69,1318,28,betaoxid energi trans2enoylcoa dehydrogenas straightchain satur consist fatti step acid result chain act product long 4 acylcoa function one fat specif process remov among acetylcoa catalyz carbon hydrogen,0.028985507246376805
+P15651,67,1673,29,betaoxid energi trans2enoylcoa dehydrogenas straightchain satur consist fatti step acid result chain act product long 4 acylcoa function one fat specif process remov among acetylcoa catalyz carbon hydrogen mitochondri,0.029850746268656716
+P49748,79,2162,31,betaoxid energi trans2enoylcoa 24 dehydrogenas straightchain satur consist fatti step acid result chain act product long acylcoa function one fat specif format process remov among acetylcoa catalyz carbon hydrogen longchain mitochondri,0
+Q5T8D3,18,826,4,bind protein function peroxisom,0
+P07108,36,1811,17,acylcoa benzodiazepin function longchain receptor locat action high ester also site modul intracellular may type bind protein,0
+P31787,14,883,8,acylcoa function ester high intracellular may longchain bind,0
+P0ABD5,25,1676,16,group malonylcoa form carboxylas function first acetylcoa compon coenzym catalyz carboxyl transfer biotin carrier complex protein,0
+P24182,20,1991,13,group carboxylas function form first compon coenzym catalyz carboxyl biotin carrier complex protein,0
+P0A9Q5,48,2302,22,group form control protein malonylcoa coenzym carboxyl transfer complex activ carboxylas function mrna compon also biotin carrier bind acetylcoa catalyz enzym translat,0.020403795444400834
+Q41931,38,1973,15,via respons function requir acid activ ethylen revers germin enzym seed may fatti cell involv,0
+O64587,84,872,19,involv select sphingosin lipid activ function relat compon also detect may transport process direct ceramid program regul rather cell,0
+Q709F0,33,1169,14,acylcoa energi product function dehydrogenas cellular acid also satur specif metabol fatti lipid activ,0
+Q52060,34,456,16,pathway nadp form reaction nad function degrad use phenol coenzym compound also catalyz enzym act aromat,0
+P45954,75,1024,15,pathway branch function among one metabol acid also catalyz result hydrogen catabol specif act fatti,0
+Q96AP0,70,3030,27,recruit telomer end telomeras pot1 singlestrand involv damag associ complex repair activ function doublestrand increas compon repeat protect dna may chromosom bind process pathway regul length modul,0
+Q9BYF1,160,3462,37,via amino action reninangiotensin blood infect interact volum cterminus receptor high surfac acid membran system act activ addit function plasma three catalyt peptid express also angiotensin agent essenti transport ctermin direct residu hormon regul biolog cell respons,0.012500000000000006
+P28298,30,1201,14,glyoxyl tricarboxyl function acet acid also growth catalyz cycl carbon act succin sourc isocitr,0
+P9WKK7,50,1230,13,substrat glyoxyl tricarboxyl function degrad acid also growth catalyz cycl succin isocitr involv,0
+Q9I0K4,29,670,12,substrat glyoxyl tricarboxyl function acid catalyz growth cycl metabol succin isocitr involv,0
+D4GTL2,27,580,12,carbohydr glyoxyl form function intermedi acetylcoa malat compound catalyz produc cycl involv,0
+Q9NUN7,88,1537,36,form control base endoplasm fatti tissu neuron similar golgi sphingosin acid signal therebi lipid function brain plasma reticulum sphingoid prolifer may process hydrolysi level pathway includ ceramid cellular catalyz homeostasi regul biolog modul longchain cell respons,0
+P07140,8,1196,4,synaps releas cholin function,0
+P22303,21,2555,12,synapt neurotransmitt neuron function transduct acetylcholin junction cleft releas signal termin neuromuscular,0
+P21836,12,3061,11,hydrolysi synapt function transduct acetylcholin junction cleft signal releas termin neuromuscular,0
+Q10714,19,1209,8,function degrad peptid matur specif spermatid may involv,0
+Q15822,17,1451,10,chang open function acetylcholin plasma channel membran conform bind across,0
+P32297,18,3180,12,chang open function acetylcholin affect channel plasma membran bind conform lead across,0
+P04757,17,3370,12,chang open function acetylcholin affect channel plasma membran bind conform lead across,0
+P43681,21,2598,12,chang function open acetylcholin affect plasma channel membran conform ion bind across,0
+P09483,20,2989,12,chang function open acetylcholin affect plasma channel membran conform ion bind across,0
+P36544,20,3643,12,chang function open acetylcholin affect plasma channel membran subunit conform bind across,0
+Q9UGM1,69,2381,27,adhes chang reduc ear across hear receptor membran alter activ function plasma fiber also calcium conform may auditori bind open includ cation nerv channel regul modul cell,0
+P02708,18,1842,12,chang open function acetylcholin affect channel plasma membran bind conform lead across,0
+P04756,17,1763,11,chang open function acetylcholin plasma channel membran bind conform lead across,0
+P17787,21,4251,12,chang function open acetylcholin affect plasma channel membran conform ion bind across,0
+P12390,20,4481,12,chang function open acetylcholin affect plasma channel membran conform ion bind across,0
+P30926,17,2132,10,chang open function acetylcholin plasma channel membran conform bind across,0
+P12392,17,1988,11,chang open function acetylcholin affect channel plasma membran conform bind across,0
+P25110,17,1729,12,chang open function acetylcholin affect channel plasma membran bind conform lead across,0
+Q04844,18,1401,11,chang open function acetylcholin plasma channel membran bind conform lead across,0
+P0A6A3,29,1840,18,pathway form reaction function atp acet phosphat acetyl also catalyz growth enzym synthesi organ catabol format product involv,0
+P11229,25,1993,15,function cyclas various acetylcholin receptor effect action inhibit g includ cellular mediat modul protein respons,0.04000000000000001
+Q08981,25,873,8,substrat function ubiquitin regul complex specif protein activ,0
+P08172,43,1610,25,action inhibit c g protein acetylcholin receptor inositol trigger signal releas mediat activ function cyclas effect trisphosph includ ip3 cytosol cellular phospholipas modul promot respons,0.04651162790697675
+P20309,26,2419,16,function cyclas various acetylcholin receptor effect action inhibit g includ channel cellular mediat modul protein respons,0.03427012987290601
+P08483,28,2446,16,muscarin function cyclas acetylcholin includ receptor effect action inhibit g channel cellular mediat modul protein respons,0.03446128372758465
+P08173,26,1119,14,function cyclas acetylcholin includ receptor effect action inhibit g cellular mediat modul protein respons,0.03846153846153846
+Q8TDX5,43,1550,8,pathway tryptophan function various control catabol metabol cell,0
+P36683,80,1255,32,transcript via iron tricarboxyl form utr 3 fatti protein involv region acid synthesi chain posit cluster function oxid mrna degrad also untransl citrat cycl sulfur isocitr propion bind catalyz 2methylcitr catabol thus,0.012500000000000006
+Q8NQ97,17,384,4,express function control gene,0
+Q8WXI4,18,1780,8,pathway acylcoa substrat function thioester chain fatti activ,0
+Q8WYK0,19,1167,10,hydrolysi level acylcoa function acetylcoa coenzym catalyz acid regul fatti,0
+Q9NPJ3,47,994,16,hydrolysi level substrat function role play control intracellular acid also catalyz regul may fatti longchain activ,0
+Q8N1Q8,37,1156,15,unsatur acylcoa substrat function ester requir acid cardiolipin import metabol fatti longchain normal lipid activ,0
+P21399,82,1719,25,via iron element 4fe4 involv region rna high acid cluster activ mrnas function mrna gene express citrat bind isocitr level ironrespons cellular regul convers translat,0.01219512195121951
+P13516,141,2295,38,energi develop reduc satur rise fatti materi involv phospholipid bond doubl cholesterol biosynthesi triglycerid acid membran electron import gland posit normal product lipid function oxid give sebac gene bodi express level unsatur substrat includ ester catalyz homeostasi regul,0
+O00767,81,1424,26,reduc satur rise fatti involv phospholipid bond doubl similar acid membran electron posit lipid function give gene oxid bodi express unsatur substrat includ ester catalyz regul,0
+P49753,38,1236,17,hydrolysi level acylcoa function acyl oxid mitochondria coenzym acid catalyz activ enzym regul chain intracellular fatti involv,0
+Q8N9L9,27,1526,16,hydrolysi level acylcoa peroxisom function coenzym acid also catalyz satur free regul chain intracellular fatti long,0
+O65202,31,1580,15,acylcoa biosynthesi function substrat longchain jasmon higher acid catalyz activ satur metabol may long involv,0
+P07872,65,1716,15,betaoxid acylcoa pathway rang function substrat acid catalyz carbon enzym length chain fatti longchain activ,0.06153846153846154
+Q96329,55,1281,15,unsatur betaoxid embryo peroxisom function ester requir acetyl acid c6 catalyz act dna fatti activ,0
+P52505,32,1399,15,biosynthesi function nadh dehydrogenas acid membran electron transfer carrier subunit complex respiratori chain fatti mitochondri,0
+O14561,29,1543,15,biosynthesi function nadh dehydrogenas acid membran electron transfer carrier subunit complex respiratori chain fatti mitochondri,0
+P9WQF3,8,1185,5,function acyl carrier protein involv,0
+P24224,8,802,2,transfer function,0
+P0A6A8,9,965,6,biosynthesi function acid carrier chain fatti,0
+P0AE06,32,649,8,function periplasm togeth span complex specif may protein,0
+P0ACS9,6,1112,4,regul function protein gene,0
+P0AAW9,23,624,5,function complex specif may protein,0
+Q01574,28,1977,12,function acetylcoa acet nucleus histon requir acetyl catalyz carbon growth may product,0
+Q08AH3,32,1667,12,produc acylcoa certain similar function eg acid catalyz metabol fatti mediumchain activ,0
+Q9NUB1,41,1942,14,substrat similar function oxid acetylcoa acet use propion acid also catalyz synthesi fatti involv,0
+Q07340,26,1387,9,group pathway dioxid function methyl acetylcoa carbon act bind,0
+Q07341,18,305,4,pathway dioxid function carbon,0
+Q46389,25,456,8,group pathway dioxid function carbon transfer cofactor protein,0
+P0DM41,14,831,8,actin function various high eukaryot cell protein involv,0
+P07830,28,1928,16,actin chromosom function motil various high cellular express eukaryot cytoskeleton muscl movement structur cell protein involv,0
+P10987,29,975,13,chromosom function various high cellular eukaryot cytoskeleton conserv movement structur cell protein involv,0
+P86287,25,550,11,actin function high eukaryot assembl polym contribut microfila cell protein involv,0
+P08023,14,687,10,actin function motil various high express eukaryot cell protein involv,0
+P60712,44,3304,25,local transcript exist form produc protein high network filament repair actin addit polymer function monomer role gene play nucleus cytoplasm also dna regul cytoskeleton cell,0.02272727272727273
+P24005,10,738,5,function movement may structur cell,0
+P60709,48,4042,25,local transcript exist form produc protein high network filament repair actin addit polymer function monomer role gene play nucleus cytoplasm also dna regul cytoskeleton cell,0.017635035935221123
+P63261,15,2830,10,actin function various high express eukaryot type cell protein involv,0
+P05094,12,1374,9,actin factin crosslink function anchor bundl intracellular structur protein,0
+P12814,12,2458,9,actin factin crosslink function anchor bundl intracellular structur protein,0
+Q7TPR4,14,2343,10,actin factin crosslink function varieti anchor bundl intracellular structur protein,0
+P35609,12,3404,9,actin factin function varieti anchor bundl intracellular structur protein,0
+Q08043,12,3878,9,actin factin function varieti anchor bundl intracellular structur protein,0
+O43707,66,3679,30,transcript via anchor intracellular epitheli interact protein involv crosslink receptor assembl associ mediat complex nuclear structur actin coactiv tight function degrad also bundl may link factin junction hormon cytoskeleton cell,0
+P05095,38,1786,17,actin crosslink function motil factin varieti increas intracellular phagocytosi activ network bundl cytoskeleton structur cell protein involv,0
+P68134,14,1739,11,actin function motil various high express eukaryot type cell protein involv,0
+P68136,14,1739,11,actin function motil various high express eukaryot type cell protein involv,0
+P60010,14,2379,10,actin function various high express eukaryot type cell protein involv,0
+P37023,48,5031,26,transcript ligand form serinethreonin develop blood activin consist receptor import complex phosphoryl normal type tgfbeta activ function famili smad vessel may ii bind kinas regul two,0
+Q04771,98,5314,38,ligand form transduc develop subsequ reproduct activin protein involv similar receptor bone system signal mediat complex phosphoryl type activ addit function smad bmp upon ii bind kinas process pathway heart includ morphogenet varieti cartilag biolog wide regul intracellular,0
+Q8RM04,21,453,4,catalyz function aceton activ,0
+Q8RM03,21,453,4,catalyz function aceton activ,0
+Q8RM02,21,434,4,catalyz function aceton activ,0
+Q03154,11,573,5,hydrolysi amino function acid catalyz,0
+P45381,29,1250,12,hydrolysi tissu function brain high bodi acid catalyz occur matter part produc,0
+Q9R1T5,25,933,8,hydrolysi function brain high catalyz occur matter part,0
+A0QWG5,21,622,3,transfer function catalyz,0
+O14672,196,3551,50,adhes constitut form develop control adheren secret ectodomain protein involv surfac membran releas result mediat signal notch complex normal activ cleavag function proteolyt vesicl molecul also amyloid membranebound later format may integr lead process bind pore transmembran includ separ junction cellular solubl precursor matur factor regul organ app cell respons,0
+P78536,129,4611,44,call form extracellular allow alpha transform secret target protein similar motil receptor surfac releas notch mediat chain act type activ cleavag generat function role proteolyt increas upon amyloid growth lead process endotheli pathway mechan includ intermedi membraneassoci solubl precursor matur hormon glycoprotein cell respons,0.007751937984496126
+P43140,30,4371,18,second similar function alphaadrenerg receptor action g system signal associ mediat regul cardiac nuclear messeng gq protein activ,0.031183566167720594
+Q9P0K1,25,804,11,adhes ligand neuron function brain receptor catalyt integrin regul cell protein,0
+P08913,40,4858,13,function cyclas order adrenerg receptor action epinephrin inhibit agonist g mediat norepinephrin protein,0.025
+P18089,40,2728,12,function cyclas order receptor action epinephrin inhibit agonist g mediat norepinephrin protein,0.025
+Q9P7J7,129,2194,39,transcript via modif form machineri interact deubiquitin basal involv sequenc select ada rna histon meiotic complex alter posit structur activ stress function nucleosom h2b recombin compon requir differ also h3 dna may ii chromatin acetyl extent regul polymeras part,0
+Q02336,113,2539,39,transcript via modif form machineri interact spt8 deubiquitin basal involv saga sequenc select ada yeast rna histon complex alter posit activ function nucleosom gene h2b compon requir differ least h3 dna may ii chromatin acetyl extent regul polymeras part,0
+P78325,5,4365,4,involv extravas function leukocyt,0
+Q13443,38,3875,17,via function molecul cellcel 2 amyloid precursor releas integrin mediat regul interact app act may cell protein,0.021888438891628306
+O75689,18,711,5,function phosphatidylinositol inositol bind protein,0
+Q9NII1,44,1541,14,oxygen function rna adapt nervous behavior system stress ion target integr essenti protein activ,0
+P97275,27,993,9,pathway biosynthesi function acyl catalyz ether fatti alcohol lipid,0
+O96759,14,790,10,phospholipid group biosynthesi function acyl catalyz ether format alkyl longchain,0
+P06134,76,1642,22,transcript group methyl alkyl involv nucleobas reaction damag transfer repair activ function gene stoichiometr differ also occur specif dna residu enzym regul,0
+P00813,101,5870,35,adhes via ligand chang extracellular develop secret contribut interact receptor signal male act posit embryon activ 2deoxyadenosin differenti function molecul express adenosin prolifer bind modul chemokin purin cytokin cellular catalyz immunogen homeostasi regul metabol cell,0
+P03958,96,6974,38,adhes via chang ligand extracellular develop secret contribut interact receptor signal import male posit act embryon activ function 2deoxyadenosin differenti molecul metabol express adenosin prolifer protect bind chemokin purin cytokin cellular catalyz immunogen dendrit homeostasi regul modul cell,0
+Q07750,28,1293,11,actin function cell lattic assembl filament muscl depolymer bind contractil activ,0
+Q07749,17,1293,9,actin function lattic assembl filament muscl depolymer cell contractil,0
+P00325,35,965,8,function oxid direct also retinoid catalyz deriv metabol,0
+P06525,48,1846,7,select substrat function eg high toxic activ,0
+P00330,16,1453,7,function secondari also catalyz primari alcohol activ,0
+P08319,34,1540,15,produc aldehyd product function oxid either intermedi end acid also catalyz dicarboxyl chain fatti long,0
+Q9QYY9,33,1540,16,produc aldehyd similar product function oxid either end intermedi acid also catalyz dicarboxyl chain fatti long,0
+Q04894,7,389,4,specif substrat function alcohol,0
+P40394,74,1455,18,aldehyd function oxid direct fatti acid also reduc retinoid omegaoxid catalyz deriv chain metabol produc long alcohol lipid,0
+P39451,5,632,2,specif function,0
+P11766,37,1946,18,produc aldehyd product function oxid primari glutathion end longchain acid also catalyz dicarboxyl chain fatti long alcohol ethanol,0
+P28474,33,1927,18,produc aldehyd product function oxid primari glutathion end longchain acid also catalyz dicarboxyl chain fatti long alcohol ethanol,0
+P28629,39,917,10,ph two form function environ acid enzym regul arginin protein,0
+P60061,59,984,13,function environ state compon undergo proton acid membran therebi side conform product across,0.033898305084745756
+Q15848,67,6933,34,inhibit control fattyacid involv glucos tissu signal import phosphoryl complex type activ function effect metabol express also growth fat macrophag insulin may bind endotheli pathway direct negat distinct factor regul antiinflammatori muscl cell util,0
+Q60994,71,6815,33,inhibit control fattyacid involv glucos tissu signal import phosphoryl complex type activ function effect metabol express also growth fat macrophag insulin may bind pathway direct negat distinct factor regul antiinflammatori muscl cell util,0
+P55263,19,1962,12,adenin function relat atp nucleosid monophosph adenosin regul phosphoryl deriv nucleotid intracellular,0
+P55264,19,2538,13,adenin extracellular function relat atp nucleosid monophosph adenosin regul phosphoryl deriv nucleotid intracellular,0
+Q64640,19,2556,12,adenin extracellular function relat atp nucleosid monophosph adenosin regul phosphoryl deriv nucleotid,0
+Q7Z4H4,36,1352,8,pathway function receptor physiolog regul complex may activ,0
+P35318,51,4273,24,inhibit action fluid physiolog control secret blood volum basal appear electrolyt act function relat plasma effect peptid agent vessel adren loss direct homeostasi kidney,0
+Q9NRN7,35,1064,12,acceptor posttransl form acyl modif function includ residu coenzym catalyz transfer protein,0
+Q93K97,17,625,5,function reaction catalyz enzym process,0
+P54922,14,1304,7,remov function residu attach specif act protein,0
+Q96A54,52,1865,24,secret decreas fatti glucos similar weight receptor high acid signal adipocyt normal lipid activ maintain function increas bodi fat hormon regul low metabol adiponectin,0
+Q86V24,52,1114,19,secret blood fatti glucos similar receptor acid signal normal lipid activ function increas fat vessel hormon regul metabol adiponectin,0
+P08588,31,2269,19,epinephrin action behavior adenyl g involv protein betaadrenerg receptor sleepwak signal mediat activ function cyclas norepinephrin bind approxim regul,0.03225806451612903
+P18090,32,5150,22,epinephrin action behavior adenyl g involv protein betaadrenerg similar receptor sleepwak signal mediat activ campmedi function cyclas norepinephrin ras bind approxim regul,0.03125
+P07550,22,4821,14,function cyclas receptor epinephrin action g bind adenyl activ mediat norepinephrin beta2adrenerg protein betaadrenerg,0.04545454545454546
+P13945,16,1825,12,cyclas function receptor action g activ adenyl mediat regul betaadrenerg protein involv,0.0625
+Q16186,114,1030,21,within particl regulatori protein involv associ complex repair activ function degrad ubiquitin compon proteasom dna process includ cellular subcomplex cell lid,0
+Q9JKV1,82,2156,26,within particl regulatori protein involv progress receptor associ complex repair activ function degrad ubiquitin compon proteasom mainten dna cycl process includ cellular whose subcomplex cell lid,0
+P08165,30,1074,11,tissu cholesterol steroid function includ mitochondri sterol electron transfer hydroxyl protein,0
+Q12184,15,1176,9,incorpor function requir electron chain part may transport cluster,0
+Q9Y6U3,74,2435,28,end inhibit phosphatidylinositol protein membran chondrocyt releas network activ actin function differenti nucleat plasma play role cytoskelet also barb prolifer ca2 megakaryocyt matur regul exocytosi organ microfila cell,0
+P18239,43,1281,16,mechan singl either function state atp cell adp membran expos inner side synthesi site antiport mitochondri,0
+P18238,43,1179,16,mechan singl either function state atp cell adp membran expos inner side synthesi site antiport mitochondri,0

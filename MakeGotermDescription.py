@@ -9,6 +9,10 @@ from nltk.translate.bleu_score import sentence_bleu
 
 geneOntology = get_gene_ontology()
 
+def intersection(lst1, lst2):
+    return list(set(lst1) & set(lst2))
+
+
 def getAllGotermAnnotation(gos):
     gos=gos.split(";")
     all_parent_list=[]
@@ -46,7 +50,6 @@ def combineAllParentDefination(gotermList):
 #given a goterm return all parent information
 #use recent go term information for all parent list, filter using go.obo ontology information
 def allParentList(goterm):
-    print(goterm)
     parentList=""
     data = pd.read_csv("AllParentListUpdatedOn2022Goa.csv", index_col=0)
     try:
@@ -59,20 +62,25 @@ def allParentList(goterm):
     return parents
 
 
+      
 
-def prepareDocument():
-    df = loadUniprotData()
-    for index,row in df.iterrows():
-        gos=row['Goterm Annotation']
-        print(gos)
-        allParents = getAllGotermAnnotation(gos)
-        goaDefination= combineAllParentDefination(allParents)
-        uniProtDefination= row['Uniprot Description']
-        print(goaDefination)
-        print(uniProtDefination)
-        
+def main():
+    with open('ProteinAndItsDescriptionCombined.csv','w' ,newline='', encoding='utf-8') as output_csvfile:
+        spamwriter = csv.writer(output_csvfile, delimiter=',')
+        list_=[]
+        list_.extend(['Protein','Goterms', 'GO Description','Uniprot Description'])
+        spamwriter.writerow(list_)
+        df = loadUniprotData()
+        for index,row in df.iterrows():
+            print(index)
+            gos=row['Goterm Annotation']
+            allParents = getAllGotermAnnotation(gos)
+            allParentsString= ' '.join(allParents)
+            goaDefination= combineAllParentDefination(allParents)
+            uniProtDefination= row['Uniprot Description']
+            spamwriter.writerow([index,allParentsString,goaDefination,uniProtDefination])
 
 
 
-# prepareDocument()
-
+if __name__ == "__main__":
+    main()
